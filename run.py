@@ -71,7 +71,7 @@ def main():
                     print("Add your credential Account")
                     print('-'*25)
                     accountusername=loginUsername
-                    print("\n")
+                    print("\n")               
                     print("Generate automatic password(G)or create new password(C)?")
                     decision=input()
                     if decision=="G":
@@ -83,6 +83,7 @@ def main():
                         accountpassword=input()
                     else:
                         print("please put a valid password")
+                    accountname=("nkatha")
                     save_account(create_account(accountusername,accountname,accountpassword))
                     print("\n")
                     print(f"Username:{accountusername}\nAccount Name:{accountname}\npassword:{accountpassword}")
