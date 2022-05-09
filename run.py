@@ -106,8 +106,8 @@ def main():
         else:
           print("choose a valid option")
           print("\n")
-if __name__=='_main_':
-    main()
+
+main()
                         
             
                     
