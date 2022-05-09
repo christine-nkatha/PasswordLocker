@@ -1,8 +1,8 @@
 import string
 from random import *
-from xml.dom.pulldom import CHARACTERS
 from user import user
 from user import credentials
+
 def create_user(firstname, lastname, username, userpassword):
     newuser = user(firstname, lastname, username, userpassword)
     return newuser
