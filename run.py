@@ -106,8 +106,8 @@ def main():
         else:
           print("choose a valid option")
           print("\n")
-
-main()
+if __name__ : '__main__'
+find_user()
                         
             
                     
